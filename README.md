@@ -4,14 +4,14 @@ A CLI tool for interacting with Thoughtful AI's AI agents.
 
 ### Features
 
-- Problem was reducced to it's core and solved
+- Problem was reduced to its core and solved
 - Maintains a message history of 10 messages
 - Provides summarized/formatted answers, using markdown.
 
 
 ## tl;dr
 
-This is the run log of a sample run.
+This is a sample run log:
 
 ```sh
 pnpm start
@@ -84,9 +84,10 @@ Thank you for using Thoughtful AI Support!
 
 ## Usage
 
-### Pre-requisites
- - [`node.js` Installation instructions]()
- - [`pnpm` Installation instructions]()
+### Prerequisites
+
+ - [`node.js` Installation instructions](https://nodejs.org/en/download)
+ - [`pnpm` Installation instructions](https://pnpm.io/installation)
  - [OpenAI API key](https://platform.openai.com/api-keys)
 
 ### pnpm (preferred)
