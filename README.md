@@ -8,31 +8,8 @@ A CLI tool for interacting with Thoughtful AI's AI agents.
 - Maintains a message history of 10 messages
 - Provides summarized/formatted answers, using markdown.
 
-## Usage
 
-### pnpm (preferred)
-
-```bash
-git clone https://github.com/sramam/thoughtful-ai-cli.git
-cd thoughtful-ai-cli
-pnpm install
-cp .env.example .env
-# add your OpenAI API key to the .env file
-pnpm start
-```
-
-### npm
-
-```bash
-git clone https://github.com/sramam/thoughtful-ai-cli.git
-cd thoughtful-ai-cli
-npm install
-cp .env.example .env
-# add your OpenAI API key to the .env file
-npm run start
-```
-
-## Run log
+## tl;dr
 
 This is the run log of a sample run.
 
@@ -102,4 +79,34 @@ AI Assistant: - CAM streamlines the submission and management of claims.
 ✔ You (type "quit" to quit): quit
 
 Thank you for using Thoughtful AI Support!
+```
+
+
+## Usage
+
+### Pre-requisites
+ - [`node.js` Installation instructions]()
+ - [`pnpm` Installation instructions]()
+ - [OpenAI API key](https://platform.openai.com/api-keys)
+
+### pnpm (preferred)
+
+```bash
+git clone https://github.com/sramam/thoughtful-ai-cli.git
+cd thoughtful-ai-cli
+pnpm install
+cp .env.example .env
+# add your OpenAI API key to the .env file
+pnpm start
+```
+
+### npm
+
+```bash
+git clone https://github.com/sramam/thoughtful-ai-cli.git
+cd thoughtful-ai-cli
+npm install
+cp .env.example .env
+# add your OpenAI API key to the .env file
+npm run start
 ```
