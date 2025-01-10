@@ -7,7 +7,13 @@ A CLI tool for interacting with Thoughtful AI's AI agents.
 - Problem was reduced to its core and solved
 - Maintains a message history of 10 messages
 - Provides summarized/formatted answers, using markdown.
-
+- [System Prompt](./system.md)
+- Time Accounting:
+    | Task          | Duration    |
+    |---------------|-------------|
+    | Coding        | 43 minutes  |
+    | Testing       | ~20 minutes |
+    | Documentation | ~30 minutes |
 
 ## tl;dr
 
